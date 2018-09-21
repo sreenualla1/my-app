@@ -21,7 +21,17 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-	
+		<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexus</id>
+		    <url>http://10.199.10.38:8081/repository/Sample-Snapshot/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexus</id>
+		    <url>http://10.199.10.38:8081/repository/Sample-Release/</url>
+		</repository>
+</distributionManagement>
 	</dependencies>
 	
 <build>
