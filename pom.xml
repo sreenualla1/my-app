@@ -26,12 +26,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://10.199.10.38:8081/repository/Sample-Snapshot/</url>
+		    <url>http://localhost:8081/repository/My-Snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://10.199.10.38:8081/repository/Sample-Release/</url>
+		    <url>http://localhost:8081/repository/My-Release/</url>
 		</repository>
 	</distributionManagement>
 	
